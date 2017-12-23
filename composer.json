@@ -1,0 +1,25 @@
+{
+    "name": "websanova/demo1",
+    "description": "Demo package for Websanova article.",
+    "keywords": ["laravel", "demo1"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunil",
+            "email": "skrajput42@gmail.com"
+        }
+    ],
+    "autoload-dev": {
+        "classmap": [
+            "tests/DemoCase.php"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Websanova\\Demo1\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
